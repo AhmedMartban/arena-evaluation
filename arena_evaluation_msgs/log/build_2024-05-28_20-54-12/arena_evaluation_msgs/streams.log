@@ -1,0 +1,239 @@
+[0.009s] Invoking command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2-migration/arena/evaluation/arena_evaluation_msgs -DCMAKE_INSTALL_PREFIX=/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.535s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.749s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.940s] -- Looking for pthread.h
+[1.000s] -- Looking for pthread.h - found
+[1.000s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.062s] -- Found Threads: TRUE  
+[1.267s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.551s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.139s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.141s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.165s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.165s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.165s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.186s] -- Found PythonExtra: .so  
+[2.252s] -- Configuring done
+[2.291s] -- Generating done
+[2.295s] -- Build files have been written to: /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs
+[2.305s] Invoked command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2-migration/arena/evaluation/arena_evaluation_msgs -DCMAKE_INSTALL_PREFIX=/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs
+[2.307s] Invoking command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs -- -j12 -l12
+[2.344s] [  3%] Generating C code for ROS interfaces
+[2.352s] [  6%] Generating C++ code for ROS interfaces
+[2.359s] [  6%] Built target ament_cmake_python_copy_arena_evaluation_msgs
+[2.628s] running egg_info
+[2.629s] writing arena_evaluation_msgs.egg-info/PKG-INFO
+[2.629s] writing dependency_links to arena_evaluation_msgs.egg-info/dependency_links.txt
+[2.629s] writing top-level names to arena_evaluation_msgs.egg-info/top_level.txt
+[2.629s] writing manifest file 'arena_evaluation_msgs.egg-info/SOURCES.txt'
+[2.631s] reading manifest file 'arena_evaluation_msgs.egg-info/SOURCES.txt'
+[2.632s] writing manifest file 'arena_evaluation_msgs.egg-info/SOURCES.txt'
+[2.658s] [  6%] Built target ament_cmake_python_build_arena_evaluation_msgs_egg
+[2.688s] [  6%] Built target arena_evaluation_msgs__cpp
+[2.697s] [  9%] Generating C++ type support dispatch for ROS interfaces
+[2.697s] [ 12%] Generating C++ type support for eProsima Fast-RTPS
+[2.697s] [ 16%] Generating C++ introspection for ROS interfaces
+[2.704s] [ 19%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_generator_c.dir/rosidl_generator_c/arena_evaluation_msgs/srv/detail/change_directory__functions.c.o
+[2.765s] [ 22%] Linking C shared library libarena_evaluation_msgs__rosidl_generator_c.so
+[2.794s] [ 22%] Built target arena_evaluation_msgs__rosidl_generator_c
+[2.802s] [ 32%] Generating C type support dispatch for ROS interfaces
+[2.802s] [ 32%] Generating C introspection for ROS interfaces
+[2.803s] [ 32%] Generating C type support for eProsima Fast-RTPS
+[2.980s] [ 35%] Building CXX object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arena_evaluation_msgs/srv/change_directory__type_support.cpp.o
+[3.017s] [ 38%] Building CXX object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arena_evaluation_msgs/srv/detail/change_directory__type_support.cpp.o
+[3.032s] [ 41%] Building CXX object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arena_evaluation_msgs/srv/detail/dds_fastrtps/change_directory__type_support.cpp.o
+[3.081s] [ 45%] Building CXX object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arena_evaluation_msgs/srv/change_directory__type_support.cpp.o
+[3.113s] [ 48%] Linking CXX shared library libarena_evaluation_msgs__rosidl_typesupport_c.so
+[3.120s] [ 51%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arena_evaluation_msgs/srv/detail/change_directory__type_support.c.o
+[3.131s] [ 54%] Building CXX object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arena_evaluation_msgs/srv/detail/change_directory__type_support_c.cpp.o
+[3.152s] [ 54%] Built target arena_evaluation_msgs__rosidl_typesupport_c
+[3.158s] [ 58%] Linking C shared library libarena_evaluation_msgs__rosidl_typesupport_introspection_c.so
+[3.185s] [ 58%] Built target arena_evaluation_msgs__rosidl_typesupport_introspection_c
+[3.278s] [ 61%] Linking CXX shared library libarena_evaluation_msgs__rosidl_typesupport_cpp.so
+[3.318s] [ 61%] Built target arena_evaluation_msgs__rosidl_typesupport_cpp
+[3.419s] [ 64%] Linking CXX shared library libarena_evaluation_msgs__rosidl_typesupport_introspection_cpp.so
+[3.463s] [ 67%] Linking CXX shared library libarena_evaluation_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.476s] [ 67%] Built target arena_evaluation_msgs__rosidl_typesupport_introspection_cpp
+[3.509s] [ 70%] Linking CXX shared library libarena_evaluation_msgs__rosidl_typesupport_fastrtps_c.so
+[3.525s] [ 70%] Built target arena_evaluation_msgs__rosidl_typesupport_fastrtps_cpp
+[3.571s] [ 70%] Built target arena_evaluation_msgs__rosidl_typesupport_fastrtps_c
+[3.586s] [ 70%] Built target arena_evaluation_msgs
+[3.603s] [ 74%] Generating Python code for ROS interfaces
+[4.085s] [ 74%] Built target arena_evaluation_msgs__py
+[4.100s] [ 77%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_generator_py.dir/rosidl_generator_py/arena_evaluation_msgs/srv/_change_directory_s.c.o
+[4.208s] [ 80%] Linking C shared library rosidl_generator_py/arena_evaluation_msgs/libarena_evaluation_msgs__rosidl_generator_py.so
+[4.245s] [ 80%] Built target arena_evaluation_msgs__rosidl_generator_py
+[4.261s] [ 90%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[4.261s] [ 90%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_c.c.o
+[4.261s] [ 90%] Building C object CMakeFiles/arena_evaluation_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[4.368s] [ 93%] Linking C shared library rosidl_generator_py/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.369s] [ 96%] Linking C shared library rosidl_generator_py/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.369s] [100%] Linking C shared library rosidl_generator_py/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.402s] [100%] Built target arena_evaluation_msgs__rosidl_typesupport_introspection_c__pyext
+[4.402s] [100%] Built target arena_evaluation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.402s] [100%] Built target arena_evaluation_msgs__rosidl_typesupport_c__pyext
+[4.411s] Invoked command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs -- -j12 -l12
+[4.469s] Invoking command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs
+[4.474s] -- Install configuration: ""
+[4.475s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/ament_index/resource_index/rosidl_interfaces/arena_evaluation_msgs
+[4.475s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.475s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.475s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/change_directory.h
+[4.475s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__type_support.h
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__functions.h
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__struct.h
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__functions.c
+[4.476s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/library_path.sh
+[4.476s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/library_path.dsv
+[4.477s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_generator_c.so
+[4.477s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_generator_c.so" to ""
+[4.477s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.477s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.477s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.477s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__rosidl_typesupport_fastrtps_c.h
+[4.478s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg
+[4.478s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.478s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_fastrtps_c.so
+[4.478s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.478s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.478s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.479s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.479s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__type_support.c
+[4.479s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__rosidl_typesupport_introspection_c.h
+[4.479s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg
+[4.479s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.479s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_introspection_c.so
+[4.479s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.479s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_c.so
+[4.480s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_c.so" to ""
+[4.480s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.480s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.480s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/change_directory.hpp
+[4.480s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.480s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__struct.hpp
+[4.481s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__builder.hpp
+[4.481s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__traits.hpp
+[4.481s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.481s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.481s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.481s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/dds_fastrtps
+[4.481s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__rosidl_typesupport_fastrtps_cpp.hpp
+[4.481s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg
+[4.482s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.482s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.482s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.482s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs
+[4.483s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv
+[4.483s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail
+[4.483s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__type_support.cpp
+[4.483s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/include/arena_evaluation_msgs/arena_evaluation_msgs/srv/detail/change_directory__rosidl_typesupport_introspection_cpp.hpp
+[4.483s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_introspection_cpp.so
+[4.483s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.483s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_cpp.so
+[4.484s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_typesupport_cpp.so" to ""
+[4.484s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/pythonpath.sh
+[4.484s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/pythonpath.dsv
+[4.484s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs-1.0.0-py3.10.egg-info
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[4.485s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_c.c
+[4.485s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.486s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/__init__.py
+[4.486s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/_arena_evaluation_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.486s] -- Up-to-date: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv
+[4.486s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv/_change_directory_s.c
+[4.486s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv/__init__.py
+[4.486s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv/_change_directory.py
+[4.487s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/libarena_evaluation_msgs__rosidl_generator_py.so
+[4.487s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.487s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.487s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.518s] Listing '/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs'...
+[4.519s] Compiling '/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/__init__.py'...
+[4.520s] Listing '/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv'...
+[4.520s] Compiling '/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv/__init__.py'...
+[4.520s] Compiling '/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/srv/_change_directory.py'...
+[4.526s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.526s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.526s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.527s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.527s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.528s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/local/lib/python3.10/dist-packages/arena_evaluation_msgs/arena_evaluation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.528s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_generator_py.so
+[4.528s] -- Set runtime path of "/ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/lib/libarena_evaluation_msgs__rosidl_generator_py.so" to ""
+[4.528s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/srv/ChangeDirectory.idl
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/srv/ChangeDirectory.srv
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/srv/ChangeDirectory_Request.msg
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/srv/ChangeDirectory_Response.msg
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/ament_index/resource_index/package_run_dependencies/arena_evaluation_msgs
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/ament_index/resource_index/parent_prefix_path/arena_evaluation_msgs
+[4.529s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/ament_prefix_path.sh
+[4.530s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/ament_prefix_path.dsv
+[4.530s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/path.sh
+[4.530s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/environment/path.dsv
+[4.530s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/local_setup.bash
+[4.530s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/local_setup.sh
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/local_setup.zsh
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/local_setup.dsv
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/package.dsv
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/ament_index/resource_index/packages/arena_evaluation_msgs
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_generator_cExport.cmake
+[4.531s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_cExport.cmake
+[4.532s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.533s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_generator_cppExport.cmake
+[4.533s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.533s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.533s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.533s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.534s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_cppExport.cmake
+[4.534s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.534s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_generator_pyExport.cmake
+[4.534s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/export_arena_evaluation_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.534s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/rosidl_cmake-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.535s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.536s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgsConfig.cmake
+[4.536s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/cmake/arena_evaluation_msgsConfig-version.cmake
+[4.536s] -- Installing: /ros2-migration/arena/evaluation/arena_evaluation_msgs/install/arena_evaluation_msgs/share/arena_evaluation_msgs/package.xml
+[4.538s] Invoked command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs

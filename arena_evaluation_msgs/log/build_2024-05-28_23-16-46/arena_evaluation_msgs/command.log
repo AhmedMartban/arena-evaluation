@@ -1,0 +1,4 @@
+Invoking command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs': /usr/bin/cmake --build /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs -- -j12 -l12
+Invoked command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs' returned '0': /usr/bin/cmake --build /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs -- -j12 -l12
+Invoking command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs': /usr/bin/cmake --install /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs
+Invoked command in '/ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs' returned '0': /usr/bin/cmake --install /ros2-migration/arena/evaluation/arena_evaluation_msgs/build/arena_evaluation_msgs
